@@ -262,7 +262,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\cache\d\d\1\8\d\b\dd18dbb821c1d2b1c2f87d4e8662d72244eb1052.jpg" />
     <Content Include="App_Data\TEMP\ClientDependency\027-PC-88a4e47bec43b0b333243a98bdab523e-map.xml" />
     <Content Include="App_Data\TEMP\DistCache\LMW3SVC2ROOT-lastsynced.txt" />
     <Content Include="App_Plugins\OsmMaps\assets\css\osmmaps.css" />
@@ -2062,8 +2061,6 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Data\Models\all.generated.cs" />
-    <Compile Include="App_Data\Models\models.generated.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -2078,10 +2075,6 @@
     <Content Include="config\HealthChecks.config" />
     <Content Include="config\ClientDependency.config" />
     <Content Include="config\BackOfficeTours\getting-started.json" />
-    <Content Include="App_Data\Logs\UmbracoTraceLog.027-PC.20200214.json" />
-    <Content Include="App_Data\Models\all.dll.path" />
-    <Content Include="App_Data\Models\models.hash" />
-    <Content Include="App_Data\packages\installedPackages.config" />
     <Content Include="App_Data\TEMP\ClientDependency\1_0c12c4af90ef4373b64a8885fb852c93.cdJ" />
     <Content Include="App_Data\TEMP\ClientDependency\1_39eb556961f144f582d86dbfec98350b.cdJ" />
     <Content Include="App_Data\TEMP\ClientDependency\1_3adc3e9d98ee41799c4ce63248ff973a.cdJ" />
