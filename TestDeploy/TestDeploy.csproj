@@ -262,8 +262,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\TEMP\ClientDependency\027-PC-88a4e47bec43b0b333243a98bdab523e-map.xml" />
-    <Content Include="App_Data\TEMP\DistCache\LMW3SVC2ROOT-lastsynced.txt" />
     <Content Include="App_Plugins\OsmMaps\assets\css\osmmaps.css" />
     <Content Include="App_Plugins\OsmMaps\assets\leaflet\images\layers-2x.png" />
     <Content Include="App_Plugins\OsmMaps\assets\leaflet\images\layers.png" />
@@ -2075,24 +2073,6 @@
     <Content Include="config\HealthChecks.config" />
     <Content Include="config\ClientDependency.config" />
     <Content Include="config\BackOfficeTours\getting-started.json" />
-    <Content Include="App_Data\TEMP\ClientDependency\1_0c12c4af90ef4373b64a8885fb852c93.cdJ" />
-    <Content Include="App_Data\TEMP\ClientDependency\1_39eb556961f144f582d86dbfec98350b.cdJ" />
-    <Content Include="App_Data\TEMP\ClientDependency\1_3adc3e9d98ee41799c4ce63248ff973a.cdJ" />
-    <Content Include="App_Data\TEMP\ClientDependency\1_723d6b7c38c0472789bc597925f5042c.cdC" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\External\segments.gen" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\External\segments_2" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\External\_0.cfs" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\External\_0_1.del" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\segments.gen" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\segments_2" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\_0.cfs" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\_0_1.del" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Members\segments.gen" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Members\segments_1" />
-    <Content Include="App_Data\TEMP\NuCache\NuCache.Content.db" />
-    <Content Include="App_Data\TEMP\NuCache\NuCache.Media.db" />
-    <Content Include="App_Data\TEMP\TypesCache\umbraco-types.027-PC.hash" />
-    <Content Include="App_Data\TEMP\TypesCache\umbraco-types.027-PC.list" />
     <Content Include="App_Plugins\OsmMaps\package.manifest" />
     <Content Include="App_Plugins\StarterKit\backoffice\tours\create-content.json" />
     <Content Include="App_Plugins\StarterKit\backoffice\tours\data-structure.json" />
@@ -2218,9 +2198,7 @@
     <Content Include="Views\Product.cshtml" />
     <Content Include="Views\Products.cshtml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\TEMP\Install\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
