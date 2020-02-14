@@ -2091,6 +2091,8 @@
     <Content Include="App_Plugins\StarterKit\backoffice\tours\create-content.json" />
     <Content Include="App_Plugins\StarterKit\backoffice\tours\data-structure.json" />
     <Content Include="App_Plugins\StarterKit\package.manifest" />
+    <Content Include="App_Data\jobs\triggered\GitPush\GitPush.ps1" />
+    <Content Include="App_Data\jobs\triggered\GitPush\settings.job" />
     <None Include="packages.config" />
     <Content Include="Web.tokenize.config" />
     <Content Include="Umbraco\assets\fonts\helveticons\helveticons.eot" />
