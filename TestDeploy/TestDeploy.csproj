@@ -2093,7 +2093,6 @@
     <Content Include="Umbraco\Views\users\views\groups\groups.html" />
     <Content Include="Umbraco\Views\users\views\users\users.html" />
     <Content Include="Umbraco\Views\users\views\user\details.html" />
-    <Content Include="\uSync\" />
     <Content Include="Views\Partials\Grid\Bootstrap3-Fluid.cshtml" />
     <Content Include="Views\Partials\Grid\Bootstrap3.cshtml" />
     <Content Include="Views\Partials\Grid\Editors\Base.cshtml" />
