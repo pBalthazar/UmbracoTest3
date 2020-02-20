@@ -1,2 +1,2 @@
 # UmbracoTest3
-test7
+Release 2.0
