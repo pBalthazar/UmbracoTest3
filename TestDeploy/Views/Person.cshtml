@@ -7,11 +7,11 @@
 <!-- for the section we want to show the shop header -->
 @Html.Partial("~/Views/Partials/SectionHeader.cshtml", Model.Parent)
 <section class="section">
-    <div class="container">
-        <h4>@Model.Name</h4>
-        <h4>@Model.Description</h4>
-        <div class="product-image-container">
-            <img class="product-image" src="@Model.Photos.Url" />
-        </div>
-   </div>
+  <div class="container">
+    <h4>@Model.Name</h4>
+    <h4>@Model.GetProperty("seoMetaDescription").Value()</h4>
+    <div class="product-image-container">
+      <img class="product-image" src="@Model.Photo.Url" />
+    </div>
+  </div>
 </section>     
