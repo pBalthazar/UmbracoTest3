@@ -8,8 +8,8 @@
 @Html.Partial("~/Views/Partials/SectionHeader.cshtml", Model.Parent)
 <section class="section">
   <div class="container">
-    <h4>@Model.Name</h4>
-    <h4>@Model.GetProperty("seoMetaDescription").Value()</h4>
+    <h4>Name: @Model.Name</h4>
+    <h4>Description: @Model.GetProperty("seoMetaDescription").Value()</h4>
     <div class="product-image-container">
       <img class="product-image" src="@Model.Photo.Url" />
     </div>
