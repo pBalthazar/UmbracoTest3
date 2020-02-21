@@ -33,8 +33,9 @@
                 <div class="employee-grid__item">
                     <div class="employee-grid__item__image" style="background-image: url('@person.Photo.Url')"></div>
                     <div class="employee-grid__item__details">
-                        <a src="@person.url">
-                        <h3 class="employee-grid__item__name">@person.Name</h3>
+                        <a href="@person.Url">
+                            <h3 class="employee-grid__item__name">@person.Name</h3>
+                        </a>
                         @if (!string.IsNullOrEmpty(person.Email))
                         {
                             <a href="mailto:@person.Email" class="employee-grid__item__email">@person.Email</a>
