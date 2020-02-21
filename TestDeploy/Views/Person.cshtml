@@ -1,4 +1,16 @@
-﻿@{
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<ContentModels.Person>
+
+@{
 	Layout = "master.cshtml";
 }
+
+@helper SocialLink(string content, string service)
+{
+    if (!string.IsNullOrEmpty(content))
+    {
+        <a class="employee-grid__item__contact-item" href="http://@(service).com/@content">@service</a>
+    }
+}       
+
+@Html.Partial("~/Views/Partials/SectionHeader.cshtml")
 <p>Nothing to see, but we could make a lesson to display a person</p>
