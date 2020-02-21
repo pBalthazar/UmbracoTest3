@@ -1,3 +1,3 @@
 # UmbracoTest3
 
-Release1.2
+Release1.3
